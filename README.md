@@ -11,7 +11,7 @@ O [Vagrant](https://www.vagrantup.com/), de forma geral, é uma aplicação de c
 
 Por isso, iremos utiliza-lo para criar a infraestrutura do Laboratório deste curso. E para isso já temos preparado um Vagrantfile, arquivo que contém a infraestrutura baseada em codigo.
 
-* [Vagrantfile](https://github.com/yesquines/PenTest/blob/master/Vagrantfile)
+* [Vagrantfile](./Vagrantfile)
 
 Este ambiente é contruirá uma máquina com [Kali Linux](https://www.kali.org/) e duas máquinas [Metasploitable3](https://github.com/rapid7/metasploitable3) (Mantida pela Rapid7), sendo uma Linux - Ubuntu 14.04 - e uma Windows Server 2008.
 
