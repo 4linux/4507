@@ -22,13 +22,7 @@ Vagrant.configure("2") do |config|
       server.vm.synced_folder '.', '/vagrant', disabled: true
      elsif "#{name}" == "windows"
       server.vm.communicator = "winrm"
-      case ENV['MS3_DIFFICULTY']
-        when 'easy'
-          server.vm.provision :shell, inline: "C:\\startup\\disable_firewall.bat"
-        else
-          server.vm.provision :shell, inline: "C:\\startup\\enable_firewall.bat"
-          server.vm.provision :shell, inline: "C:\\startup\\configure_firewall.bat"
-      end
+      server.vm.provision :shell, inline: "C:\\startup\\disable_firewall.bat"
       server.vm.provision :shell, inline: "C:\\startup\\install_share_autorun.bat"
       server.vm.provision :shell, inline: "C:\\startup\\setup_linux_share.bat"
       server.vm.provision :shell, inline: "rm C:\\startup\\*"
