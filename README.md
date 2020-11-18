@@ -3,6 +3,8 @@ PenTest: Técnicas de Intrusão em Redes Corporativas
 
 > **"A penatration test is a snapshot of the current security posture."** Lee Allen (Autor de _Advanced Penetration Testing for Highly-Secured Environments_)
 
+![PenTest](./images/word_map.png)
+
 Repositório Criado para armazemento de informações gerais do curso de PenTest.
 
 Vagrant
