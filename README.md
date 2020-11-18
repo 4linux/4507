@@ -13,7 +13,7 @@ Por isso, iremos utiliza-lo para criar a infraestrutura do Laboratório deste cu
 
 * [Vagrantfile](./Vagrantfile)
 
-Este ambiente é contruirá uma máquina com [Kali Linux](https://www.kali.org/) e duas máquinas [Metasploitable3](https://github.com/rapid7/metasploitable3) (Mantida pela Rapid7), sendo uma Linux - Ubuntu 14.04 - e uma Windows Server 2008.
+Este ambiente é contruirá uma máquina com [Kali Linux](https://www.kali.org/) criada e mantida pelo projeto [Kali-Vagrant](https://gitlab.com/kalilinux/build-scripts/kali-vagrant) e duas máquinas [Metasploitable3](https://github.com/rapid7/metasploitable3) (Mantida pela Rapid7), sendo uma Linux - Ubuntu 14.04 - e uma Windows Server 2008.
 
 ### Procedimento para Inicializar a infraestrutura
 ```bash
