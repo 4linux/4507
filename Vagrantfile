@@ -22,6 +22,8 @@ Vagrant.configure("2") do |config|
       server.vm.synced_folder '.', '/vagrant', disabled: true
      elsif "#{name}" == "windows"
       server.vm.communicator = "winrm"
+      server.winrm.retry_limit = 60
+      server.winrm.retry_delay = 10
       server.vm.provision :shell, inline: "C:\\startup\\disable_firewall.bat"
       server.vm.provision :shell, inline: "C:\\startup\\install_share_autorun.bat"
       server.vm.provision :shell, inline: "C:\\startup\\setup_linux_share.bat"
