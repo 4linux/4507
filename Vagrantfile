@@ -28,6 +28,9 @@ Vagrant.configure("2") do |config|
       server.vm.provision :shell, inline: "C:\\startup\\install_share_autorun.bat"
       server.vm.provision :shell, inline: "C:\\startup\\setup_linux_share.bat"
       server.vm.provision :shell, inline: "rm C:\\startup\\*"
+     else
+      server.ssh.forward_agent = true
+      server.ssh.forward_x11 = true
      end
 
        server.vm.hostname = "#{name}"
