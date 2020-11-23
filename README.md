@@ -19,7 +19,7 @@ Este ambiente é contruirá uma máquina com [Kali Linux](https://www.kali.org/)
 
 ### Procedimento para Inicializar a infraestrutura
 ```bash
-https://github.com/4linux/4507.git pentest_lab
+git clone https://github.com/4linux/4507.git pentest_lab
 cd pentest_lab
 vagrant up
 ```
