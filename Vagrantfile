@@ -6,7 +6,7 @@
 # you're doing.
 
 secmachines = {
-	'kali' => { 'cpu' => '2', 'memory' => '2048', 'ip' => '10', 'box' => 'kalilinux/rolling'},
+	'kali' => { 'cpu' => '2', 'memory' => '4092', 'ip' => '10', 'box' => 'kalilinux/rolling'},
 	'metasploitable' => {'cpu' => '1', 'memory' => '2048', 'ip' => '20', 'box' => 'rapid7/metasploitable3-ub1404'},
 	'windows' => {'cpu' => '2', 'memory' => '2048', 'ip' => '30', 'box' => 'rapid7/metasploitable3-win2k8'},
 }
