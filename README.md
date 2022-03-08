@@ -21,6 +21,7 @@ Este ambiente é contruirá uma máquina com [Kali Linux](https://www.kali.org/)
 ```bash
 git clone https://github.com/4linux/4507.git pentest_lab
 cd pentest_lab
+vagrant plugin install winrm winrm-fs winrm-elevated winrm-fs
 vagrant up
 ```
 > OBS¹: É recomendado no minimo 8Gb RAM para utilização desse Laboratório.
